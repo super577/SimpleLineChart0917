@@ -21,6 +21,9 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        /**
+         * 不知道什么鬼
+         */
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         slc= (SimpleLineChart) findViewById(R.id.main_simpleLineChart);
